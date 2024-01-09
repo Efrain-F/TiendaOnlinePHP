@@ -1,0 +1,59 @@
+
+input {
+    cursor: pointer;
+}
+.container-carrito{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 100px;
+    background-color: #151417;
+    min-height: 100vh;
+}
+.carrito-table{
+    margin-top: 20px;
+    border-collapse:collapse;
+}
+.table-thead{
+    background-color: #B1B1B1;
+    color: #151417;
+}
+.table-thead tr th{
+    padding: 10px;
+}
+.table-tbody tr td{
+    padding: 10px;
+    color: #E5E8E8;
+}
+.table-tbody tr td img{
+    width: 70px;
+}
+.table-fila{
+    border: 2px solid #B1B1B1;
+    color: #E5E8E8;
+    margin-top: 10px;
+    padding: 10px;
+}
+.btn-actualizar{
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 4px;
+
+}
+.btn-borrar{
+    padding: 5px;
+    border-radius: 4px;
+    background-color: rgb(249, 105, 105);
+}
+.imagen-table{
+    width: 80px;
+}
+#btn-comprarCarrito{
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    padding: 7px;
+    border-radius: 6px;
+}

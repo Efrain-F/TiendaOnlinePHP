@@ -1,0 +1,75 @@
+.container-pedidos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #151417;
+    min-height: 100vh;
+    padding-top: 70px;
+}
+.container-pedidos div{
+    color: #E5E8E8;
+    
+}
+.crear-producto-btn{
+    color: #151417;
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 6px;
+}
+.pedido-info{
+    margin: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #E5E8E8;
+}
+.pedido-info h3{
+    font-size: 1rem;
+    padding: 5px;
+}
+.pedido-info p{
+    background-color: #0b0a0b;
+    margin-top: 3px;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 1rem;
+}
+.pedido-cancelar{
+    background-color: rgb(244, 176, 176);
+    padding: 7px;
+    border-radius: 7px;
+    font-size: 1.1rem;
+}
+.total-precio{
+    text-align: end;
+}
+.noAccess{
+    max-width: 500px;
+    margin:  50px auto;
+    padding: 20px;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.alert{
+    margin-top: 10px;
+}
+.verTodo{
+    background-color: #0d0b0e;
+    color: white;
+    padding:8px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+.regresar{
+    background-color: rgb(192, 241, 159);
+    color: black;
+    padding: 7px;
+    border-radius: 7px;
+    font-size: 1.1rem;
+}

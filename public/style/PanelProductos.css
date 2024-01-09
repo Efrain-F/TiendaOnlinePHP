@@ -1,0 +1,58 @@
+.container-infoProducto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 100vh;
+    background-color: #151417;
+}
+.form-infoProducto{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-infoProducto div{
+    font-size: 1.2rem;
+    color: #E5E8E8;
+    display: flex;
+    flex-direction: column;
+}
+.form-infoProducto div input{
+    font-size: 1.2rem;
+    border: none;
+    background-color: #0b0a0b;
+    color: #E5E8E8;
+    padding: 6px;
+    border-radius: 5px;
+}
+.form-infoProducto div textarea{
+    font-size: 1.2rem;
+    border: none;
+    background-color: #0b0a0b;
+    color: #E5E8E8;
+    padding: 6px;
+    border-radius: 5px;
+}
+.form-infoProducto div select{
+    font-size: 1.2rem;
+    border: none;
+    background-color: #0b0a0b;
+    color: #E5E8E8;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.form-acciones-producto{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.form-acciones-producto button{
+    font-size: 1.2rem;
+    padding: 9px;
+    border-radius: 6px;
+}

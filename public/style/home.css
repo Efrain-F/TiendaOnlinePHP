@@ -1,0 +1,55 @@
+.container{
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.container-home{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.home-presentacion{
+    background-image: url(../img/fondoWeb/fondo3.jpg);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.presentacion-title{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    padding: 10px;
+    max-width: 700px;
+    top: 30%;
+    gap: 10px;
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 150px;
+}
+.presentacion-title button{
+    color: #E5E8E8;
+    font-size: 1.5rem;
+    border: 2px solid #E5E8E8;
+    border-radius: 5px;
+    width: 120px;
+    padding: 10px;
+    
+}
+.presentacion-title h1{
+    color: #E5E8E8;
+    font-size: 4.5rem;
+}
+.presentacion-title h4{
+    display: inline;
+    font-size: 2rem;
+    color: #E5E8E8;
+}
+.home-shop{
+    z-index: 100;
+}
